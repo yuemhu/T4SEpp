@@ -28,7 +28,7 @@ import random
 import os
 import yaml
 import argparse
-from T4attention.train import *
+#from T4attention.train import *
 from T4attention.test import *
 def print_run(cmd):
     print(cmd)
