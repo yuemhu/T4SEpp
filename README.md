@@ -68,5 +68,5 @@ Apart from the considerable prediction accuracy, T4SEpp shows a major advantage 
 
 ## Contact
 
-Please contact Yueming Hu at huym@zju.edu.cn for questions.
+If you any questions, please contact Yueming Hu at huym@zju.edu.cn.
 
