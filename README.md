@@ -3,8 +3,8 @@
 
 
 Codes and models for the paper "T4SEpp: a unified pipeline prediction model based on pre-trained protein language model for Bacterial Type IV Secreted Effectors".
-> T4SEpp: a unified pipeline prediction model based on pre-trained protein language model for Bacterial Type IV Secreted Effectors \
-> Authors: Yueming Hu, Xiaotian Hu, Haoyu Chao, Sida Li, Qinyang Ni, Yanyan Zhu, Yixue Hu, Ziyi Zhao, Yejun Wang, Ming Chen. 
+> T4SEpp: a pipeline integrated with protein language models effectively predicting bacterial type IV secreted effectors \
+> Authors: Yueming Hu,Yejun Wang, Xiaotian Hu, Haoyu Chao, Sida Li, Qinyang Ni, Yanyan Zhu, Yixue Hu, Ziyi Zhao,  Ming Chen. 
 
 [T4SEpp Website](https://bis.zju.edu.cn/T4SEpp)
 
