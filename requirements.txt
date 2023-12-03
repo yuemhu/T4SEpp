@@ -5,3 +5,4 @@ joblib==0.17.0
 Bio==1.79
 scikit_learn==1.0.1
 transformers==4.14.1
+fair-esm
