@@ -8,7 +8,7 @@ Codes and models for the paper "T4SEpp: a pipeline integrating protein language 
 
 [T4SEpp Website](https://bis.zju.edu.cn/T4SEpp)
 
-Pytorch implementation of T4SEpp, an Integrated Prediction Pipeline for bacterial type IV secretion system effectors (T4SEs) using pre-trained model. It applies six protein pre-trained language models (pLMs) including ESM-1b (provided by [esm repository](https://github.com/facebookresearch/esm)) or other pLMs (provided by [ProtTrans repository](https://github.com/agemagician/ProtTrans)) to the prediction task and achieves high testing accuracy(**98.8%**). It also provides genome-scale prediction for T4SEs.
+Pytorch implementation of T4SEpp, an Integrated Prediction Pipeline for bacterial type IV secretion system effectors (T4SEs) using pre-trained model. It applies six protein pre-trained language models (pLMs) including ESM-1b (provided by [esm repository](https://github.com/facebookresearch/esm)) or other pLMs (provided by [ProtTrans repository](https://github.com/agemagician/ProtTrans)) to the prediction task and achieves high testing accuracy(**97.6%**). It also provides genome-scale prediction for T4SEs.
 
 ![Workflow]<div align="center"><img width="800" src="./images/workflow.png"/></div>
 
@@ -60,9 +60,9 @@ We have compared T4SEpp with existing prediction tools according to the perfoman
 |    T4SEfinder-pssm_cnn    | 0.906 | 0.800 | 0.920 | 0.571 | 0.667 | 0.625 | 0.923 | 0.759 |
 |  T4SEfinder-hybridbilstm  | 0.941 | 0.800 | 0.960 | 0.727 | 0.762 | 0.730 | 0.945 | 0.852 |
 |  T4SEfinder-TAPEBert_MLP  | 0.958 | 0.850 | 0.973 | 0.810 | 0.829 | 0.806 | 0.959 | 0.805 |
-|       T4SEpp_ESM-1b       | 0.976 | 0.850 | 0.993 | 0.944 | 0.894 | 0.883 | 0.922 | 0.868 |
-|      T4SEpp_ProtBert      | 0.988 | 0.950 | 0.993 | 0.950 | 0.950 | 0.943 | 0.974 | 0.946 |
-| T4SEpp_ProtT5-XL-UniRef50 | 0.988 | 0.900 | 1.000 | 1.000 | 0.947 | 0.942 | 0.948 | 0.901 |
+|       T4SEpp_ESM-1b       | 0.976 | 0.850 | 0.993 | 0.944 | 0.894 | 0.883 | 0.953 | 0.928 |
+|      T4SEpp_ProtBert      | 0.982 | 0.900 | 0.993 | 0.947 | 0.923 | 0.913 | 0.965 | 0.950 |
+| T4SEpp_ProtT5-XL-UniRef50 | 0.988 | 0.900 | 1.000 | 1.000 | 0.947 | 0.942 | 0.963 | 0.932 |
 
 Apart from the considerable prediction accuracy, T4SEpp shows a major advantage in computational efficiency due to the adoptation of protein pre-trained langugae model.
 
